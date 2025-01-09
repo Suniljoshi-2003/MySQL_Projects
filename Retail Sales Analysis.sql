@@ -1,5 +1,5 @@
 -- SQL Retail Sales Analysis
-use retail_db;
+
 -- Create Database
 CREATE DATABASE IF NOT EXISTS retail_db;
 
@@ -103,7 +103,7 @@ FROM retail_sales;
 
 
 --        ==========================================
---       				 Data Analyis
+--       	       Data Analyis
 --        =========================================
 /* 
           Q1. Write a SQL query to retrive all columns for sales

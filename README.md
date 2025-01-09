@@ -28,7 +28,7 @@ Counted total sales, unique customers, and unique product categories.
 Retrieved specific sales data for exploration by transaction date, category, and sales amount.
 Data Analysis:
 
-*Analyzed sales data to generate insights such as:
+* Analyzed sales data to generate insights such as:
 
 Total sales for each category.
 Average age of customers purchasing from the 'Beauty' category.

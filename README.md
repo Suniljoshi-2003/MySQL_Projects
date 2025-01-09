@@ -3,6 +3,9 @@ This project involves analyzing retail sales data stored in a relational databas
 
 Project Structure:-
 
+##Project Link 
+[SQL Retail Sales Analysis Project](https://github.com/Suniljoshi-2003/MySQL_Projects/blob/main/Retail%20Sales%20Analysis.sql)
+
 1.Database Creation
 - retail_db: The main database for storing sales data.
   
@@ -33,5 +36,4 @@ Top customers based on total sales.
 Sales performance for specific months and categories.
 
 
-[SQL Retail Sales Analysis Project](https://github.com/Suniljoshi-2003/SQL-Retail-Sales-Analysis)
 

@@ -60,16 +60,40 @@ This project analyzes pizza sales data to extract meaningful insights and calcul
 * Hourly Sales Distribution: Analyze sales trends by hour.
 * Monthly Sales Distribution: Examine sales trends by month.
   
+
 ⚙️ SQL Queries
-The project uses SQL queries for all calculations and insights. Key queries include:
-* Calculating total pizza sales and revenue.
-* Grouping data by pizza type, hour, and month to analyze performance.
-* Sorting and limiting results to identify top and bottom performers.
+
+The project uses SQL to calculate all KPIs. Here are some examples:
+
+- Total Pizzas Sold:
+``` sql
+SELECT SUM(quantity) AS total_pizzas_sold FROM pizza_sales;
+```
+
+- Total Revenue Generated:
+``` sql
+SELECT ROUND(SUM(total_price)) AS total_revenue_generated FROM pizza_sales;
+```
+
+- Top 5 Performing Pizzas:
+ ``` sql
+SELECT pizza_name, SUM(quantity) AS total_sales 
+FROM pizza_sales 
+GROUP BY pizza_name 
+ORDER BY total_sales DESC 
+LIMIT 5;
+```
 
 🚀 How to Run the Project
-* Import the database into your SQL server using the proj1_db name.
-* Load the pizza_sales table with the required data.
-* Use the provided SQL queries to calculate KPIs and analyze trends.
+
+1. Database Setup:
+- Import the pizza_sales data into a database named proj1_db.
+
+2. SQL Execution:
+- Use the provided SQL queries to analyze the data and calculate KPIs.
+  
+3.Visualization (Optional):
+- Use tools like Tableau to visualize the results for better insights.
 
 📊 Insights Generated
 Examples of Key Insights:
@@ -78,3 +102,27 @@ Examples of Key Insights:
 * Revenue Insights: Understand which pizzas contribute most to business profitability.
 * Sales Trends: Explore when sales peak during the day and throughout the year.
 
+📈 Results Visualization
+The analysis results are visualized using Tableau to make the insights more accessible and interactive. Here are the key visualizations created:
+
+1. Total Pizzas Sold:
+- A numeric indicator or bar chart to display the total number of pizzas sold.
+2. Revenue Trends:
+- Line charts showcasing revenue trends over time (daily, monthly).
+3. Top Performing Pizzas:
+- Horizontal bar charts highlighting the top 5 pizzas based on sales quantity.
+4. Hourly Sales Distribution:
+- Heatmaps or line charts to analyze pizza sales across different hours of the day.
+5. Monthly Sales Distribution:
+- Line or area charts showing trends in sales volume month by month.
+6. Revenue by Pizza Type:
+- Tree maps visualizing revenue contributions of different pizzas.
+The Tableau dashboards provide a comprehensive overview of sales performance and allow for interactive exploration of data insights.
+
+🛠️ Technologies Used
+
+SQL: Primary language for data analysis.
+
+Tableau: For visualizing the results and creating interactive dashboards.
+
+**[Project link](https://github.com/Suniljoshi-2003/MySQL_Projects/blob/main/pizza_sales%20analysis.sql)**

@@ -42,6 +42,7 @@ Sales performance for specific months and categories.
 # Pizza Sales Data Analysis
 
 **📌 Project Overview**
+
 This project analyzes pizza sales data to extract meaningful insights and calculate key performance indicators (KPIs). The analysis includes total sales, revenue generation, and performance metrics of individual pizzas.
 
 📂 Database Information
@@ -125,4 +126,4 @@ SQL: Primary language for data analysis.
 
 Tableau: For visualizing the results and creating interactive dashboards.
 
-**[Project link](https://github.com/Suniljoshi-2003/MySQL_Projects/blob/main/pizza_sales%20analysis.sql)**
+**[Project link:Pizza Sales](https://github.com/Suniljoshi-2003/MySQL_Projects/blob/main/pizza_sales%20analysis.sql)**

@@ -1,6 +1,14 @@
-# SQL Retail Sales Analysis
+#  Retail Sales Analysis
+
+**📌 Project Overview**
+
 This project involves analyzing retail sales data stored in a relational database (retail_db). The data includes transactions, customer details, product categories, and sales figures. The project covers various stages of data management, including database creation, table creation, data cleaning, exploration, and analysis.
 
+📂 Database Information
+* Database Name: retail_db
+* Table Name: retail_sales
+* Table Columns: (transaction_ID,sales_date,sales_time,customer_ID,gender,age,category, quantity,price_per_unit,cogs,total_sale)
+  
 Project Structure:-
 
 ##Project Link 

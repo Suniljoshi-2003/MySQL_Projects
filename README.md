@@ -135,3 +135,87 @@ SQL: Primary language for data analysis.
 Tableau: For visualizing the results and creating interactive dashboards.
 
 **[Project link:Pizza Sales](https://github.com/Suniljoshi-2003/MySQL_Projects/blob/main/pizza_sales%20analysis.sql)**
+
+
+# MySQL Projects: Employee Analysis
+
+Welcome to the **Employee Analysis** project! This repository contains a MySQL script that analyzes employee-related data to derive meaningful insights.
+
+---
+
+## 🗁 **Project Overview**
+
+The **Employee Analysis** project demonstrates how MySQL can be used to analyze and manage employee data effectively. This script includes SQL queries for tasks like data aggregation, filtering, and detailed reporting.
+
+---
+
+## 🗁 **File Structure**
+
+- **`Employee Analysis.sql`**: Contains all the SQL queries used for analyzing employee data.
+
+---
+
+## 🚀 **Features**
+
+- Analyze employee details, including salary distribution, department-wise employee count, and average salaries.
+- Perform filtering and sorting for specific insights.
+- Demonstrates advanced SQL techniques like `JOINs`, `GROUP BY`, and `HAVING`.
+
+---
+
+## 🔧 **Requirements**
+
+- **Database**: MySQL Server installed on your system.
+- **SQL Client**: Any SQL IDE like MySQL Workbench, DBeaver, or phpMyAdmin.
+
+---
+
+## 📌 **How to Use**
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Suniljoshi-2003/MySQL_Projects.git
+   ```
+
+2. Navigate to the repository:
+   ```bash
+   cd MySQL_Projects
+   ```
+
+3. Open the `Employee Analysis.sql` file in your preferred SQL editor.
+
+4. Execute the SQL script on your database.
+
+---
+
+## ✨ **Skills Demonstrated**
+
+- **SQL Concepts**: Data manipulation, aggregation, filtering, and sorting.
+- **Data Analysis**: Generating insights from employee data.
+- **Problem-Solving**: Practical SQL queries for real-world scenarios.
+
+---
+
+## 🤝 **Contributing**
+
+Contributions are welcome! If you have suggestions for improvement or additional features, feel free to fork this repository and submit a pull request.
+
+---
+
+## 📧 **Contact**
+
+For any queries, feel free to reach out:
+
+- **Name**: Sunil Chandra Joshi
+- **GitHub**: [Suniljoshi-2003](https://github.com/Suniljoshi-2003)
+- **Location**: Noida, UP
+
+---
+
+## 🐜 **License**
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### ⭐ If you find this project useful, please give it a star on GitHub!

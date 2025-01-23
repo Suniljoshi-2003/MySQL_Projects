@@ -1,0 +1,35 @@
+🍕 Pizza Sales Analysis
+This repository contains my Pizza Sales Analysis project, where I used SQL to analyze pizza sales data and generate meaningful insights. The project aims to help businesses optimize their sales strategies, identify trends, and make data-driven decisions.
+
+ 📊 Project Overview
+In this project, I analyzed pizza sales data to generate key insights, such as:
+
+- Total number of orders placed
+- Total revenue generated from pizza sales
+- Most popular pizza types and sizes
+- Distribution of orders by time and date
+- Revenue contribution by each pizza category
+
+🛠 Technologies Used
+- SQL for data querying and analysis
+- Google Drive for storing the presentation
+- GitHub for version control and collaboration
+
+📂 Files Included
+- SQL Queries: A collection of SQL queries used for data analysis.
+- Project PPT: Pizza Sales Analysis Presentation
+[Google Drive](https://drive.google.com/file/d/1yET2F7d_7VhPgUbf4_gSaIaYuxjnOrXK/view?usp=sharing)
+(This PPT includes a detailed breakdown of the insights and conclusions from the analysis. The file is hosted on Google Drive due to its larger size.)
+
+💡 Key Insights
+- Total Orders & Revenue: Insights on overall sales and revenue generation.
+- Top 5 Most Ordered Pizza Types: A list of the most popular pizzas based on order quantity.
+- Most Common Pizza Size Ordered: Data on which pizza size is most frequently chosen by customers.
+- Order Distribution by Hour: A breakdown of orders by time of day, identifying peak hours.
+- Revenue Contribution by Category: Understanding the financial impact of different pizza categories on total sales.
+
+# Learnings
+This project helped me improve my SQL querying skills, understand the real-world applications of data analysis in the food industry, and learn how to present data-driven insights in a clear and actionable way.
+
+🔗 Access the PPT
+You can view/download the PPT presentation containing a summary of the analysis here.

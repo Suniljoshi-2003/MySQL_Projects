@@ -254,21 +254,26 @@ Some key analyses performed in this project:
 5. Average order value and its variance over time.  
 
 ## 🔍 Sample Queries  
-### 1. Total Revenue  
+- 1. Total Revenue  
+
 ```sql
 SELECT SUM(total_amount) AS Total_Revenue  
 FROM sales_data;
 ```
-2. Top-Selling Products
-```
+
+- 2. Top-Selling Products
+
+```sql
 SELECT product_name, SUM(quantity) AS Total_Quantity  
 FROM sales_data  
 GROUP BY product_name  
 ORDER BY Total_Quantity DESC  
 LIMIT 10;
 ```
-3. Monthly Revenue
-```
+
+- 3. Monthly Revenue
+
+```sql
 SELECT MONTH(order_date) AS Month, SUM(total_amount) AS Monthly_Revenue  
 FROM sales_data  
 GROUP BY MONTH(order_date)  

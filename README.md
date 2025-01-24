@@ -281,4 +281,4 @@ The top 5 products account for 50% of total revenue.
 Weekend sales are significantly higher compared to weekdays.
 Location-based promotions can increase customer engagement
 
-PizzaHut[project]()
+PizzaHut[project](https://github.com/Suniljoshi-2003/MySQL_Projects/blob/main/PizzaHut%20Sales%20Analysis%20using%20MySQL.sql)
